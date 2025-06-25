@@ -50,6 +50,3 @@ A full-stack web application to manage and track food items with expiry dates, h
 
 ---
 
-## 📁 Folder Structure (Client)
-
-your-live-site-link.com
