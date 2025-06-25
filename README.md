@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# 🧊 Food Expiry Tracker System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application to manage and track food items with expiry dates, helping users reduce food waste by alerting them before items expire. Users can securely register, add items, update, filter/search, and manage their own inventory.
 
-Currently, two official plugins are available:
+🔗 *Live Site:* [Food Expiry Tracker System](https://your-live-site-link.com)  
+📂 *Client Repo:* [GitHub - Client](https://github.com/your-username/food-expiry-tracker-client)  
+🛠 *Server Repo:* [GitHub - Server](https://github.com/your-username/food-expiry-tracker-server)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Main Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Client Side:
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Axios
+- SweetAlert2 / React Toastify
+- Framer Motion
+- React CountUp
+- Firebase Authentication
+- JWT (via API)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Server Side:
+- Express.js
+- MongoDB
+- Cors
+- JWT
+- Dotenv
+- Mongoose
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Key Features
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- ✅ Secure Login & Register using Firebase Auth
+- 🔒 JWT Protected API for private routes (Add, Update, Delete)
+- 📦 Add, Edit, Delete food items
+- ⏰ Countdown to expiry
+- 🔍 Search and Filter by food title and category
+- 🔐 Only food owner can add notes
+- 📅 Auto-detect Nearly Expired (within 5 days) and Expired items
+- 🌐 Responsive design for desktop, tablet, and mobile
+- 🔧 Proper environment variable usage for Firebase & MongoDB
+- 💡 SweetAlerts/Toasts for feedback
+- 📊 CountUp for expiry statistics
+- 📸 Food image + metadata with each item
+- ❌ 404 Not Found Page
+- ⌛ Spinner for loading states
+
+---
+
+## 📁 Folder Structure (Client)
+
+your-live-site-link.com
