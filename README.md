@@ -2,9 +2,7 @@
 
 A full-stack web application to manage and track food items with expiry dates, helping users reduce food waste by alerting them before items expire. Users can securely register, add items, update, filter/search, and manage their own inventory.
 
-🔗 *Live Site:* [Food Expiry Tracker System](https://your-live-site-link.com)  
-📂 *Client Repo:* [GitHub - Client](https://github.com/your-username/food-expiry-tracker-client)  
-🛠 *Server Repo:* [GitHub - Server](https://github.com/your-username/food-expiry-tracker-server)
+🔗 *Live Site:* [Food Expiry Tracker System]([https://your-live-site-link.com](https://food-expire-tracker-system55.netlify.app/))  
 
 ---
 
